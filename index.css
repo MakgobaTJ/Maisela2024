@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2e3a37;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+.logo {
+    width: 100px; /* Adjustment as needed */
+    height: auto;
+    border: 2px solid black; /* border */
+    border-radius: 5px; /*rounded corners */
+    margin-right: 20px; /*Adjust spacing */
+  }
+  .container {
+    width: 100%; /* Use percentage-based width */
+  }
+  
+  .element {
+    font-size: 1.2em;
+  }
+  
+  /* Flexbox */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* CSS rules for screens up to 600px wide (typical mobile phones) */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules for screens between 601px and 1024px wide (tablets) */
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    /* CSS rules for screens wider than 1024px (desktops and larger screens) */
+  }
+  
+  .gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    max-width:1000px ; /* Resize to a maximum width of 25% */
+    max-height: auto;
+    margin: 100px;
+  }
+  
+  /*gallery img {
+    width: 25%; 
+    height: 250px; 
+    object-fit: contain;
+    margin: 10px;
+  */
+.galllery img {
+  max-width: 25%; /* Resize to a maximum width of 25% */
+  max-height: 210px; /* Resize to a maximum height of 250px */
+  margin: 10px;
+}
+
+.galllery img:hover {
+  max-width: none; /* Remove max-width constraint on hover */
+  max-height: none; /* Remove max-height constraint on hover */
+  width: 25%; /* Set width to auto to restore original width */
+  height: auto; /* Set height to auto to restore original height */
+}

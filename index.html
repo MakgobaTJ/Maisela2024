@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EAtery Catering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--so it be responsive to diffrent devices.-->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: rgb(211, 221, 223);">
+
+  <script>
+		const images = document.querySelectorAll('.gallery img');
+		
+		images.forEach((image) => {
+			image.addEventListener('click', () => {
+				image.classList.toggle('full-size');
+			});
+		});
+	</script>
+
+  <header>
+    <img src="./Assets/logo/EAtery.jpg" alt="Eatery Logo" class="logo">
+    <h1 style="color: rgb(83, 168, 207);">Eatery Delicious Catering</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Eatery Catering! We specialize in providing mouthwatering dishes for all occasions.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li>
+        <h3>Appetizers</h3>
+        <p>Mini spring rolls - R100</p>
+        <p>Stuffed mushrooms - R120</p>
+      </li>
+      <li>
+        <h3>Main Courses</h3>
+        <p>Grilled salmon with lemon butter - R200/person</p>
+        <p>Chicken marsala - R90/person</p>
+      </li>
+      <li>
+        <h3>Desserts</h3>
+        <p>Chocolate lava cake - R80/slice</p>
+        <p>cheesecake - R60/slice</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="./Assets/20240312_171323.jpg" style="width: 50%;" alt="Image 1">
+      <img src=".//Assets/IMG-20181225-WA0039.jpg" alt="Image 2">
+      <img src=".//Assets/IMG-20240324-WA0010(1).jpg" alt="Image 2.8">
+      <img src="./Assets/IMG-20201228-WA0020.jpg" alt="Image 3">
+      <img src="./Assets/IMG-20211225-WA0021.jpg" alt="Image 4">
+      <img src="./Assets/IMG-20220619-WA0035.jpg" alt="Image 5">
+      <img src="./Assets/IMG-20240304-WA0016.jpeg" style="position: relative;width: 50%;" alt="Image 5.9">
+      <img src="./Assets/WhatsApp Image 2024-04-22 at 17.22.27_985b4c61.jpg" alt="Image 6">
+      
+    </div>
+  </section>
+
+  <section id="galllery Two">
+    <section style="height: 5%; width: 100%; background-color: rgb(134, 117, 153);">
+      <h2>Gallery</h2>
+    </section>
+     
+    <div class="galllery">
+      
+      <img src="./Assets/1.jpg" alt="Image 7">
+      <img src="./Assets/WhatsApp Image 2024-04-25 at 19.25.12_d0ce3c85.jpg" alt="Image 8">
+      <img src="./Assets/WhatsApp Image 2024-04-26 at 17.18.27_62e2d0e5.jpg" alt="Image 9">
+      <img src="./Assets/2.jpg" alt="Image 10">
+      <img src="./Assets/3.jpg" alt="Image 11">
+      <img src="./Assets/4.jpg" alt="Image 12">
+      <img src="./Assets/6.jpg" alt="Image 10">
+      <img src="./Assets/7.jpg" alt="Image 11">
+      <img src="./Assets/Screenshot 2024-04-29 145609.png" alt="Image 12">
+      <img src="./Assets/Screenshot 2024-04-29 145817.png" alt="Image 13">
+      <img src="./Assets/17.jpg" alt="Image 14">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>For inquiries and orders, please contact us:</p>
+    <address>
+      Email: mapulamaesela@gmail.com <br>
+      Phone: 065 982 5961
+
+    </address>
+  </section>
+
+  <section style="height: 5%; width: 100%; background-color: rgb(69, 78, 94);"></section>
+
+  <footer>
+    <p>&copy; 2024 Eatering Catering. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>
